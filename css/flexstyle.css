@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: royalblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.container{
+    display: flex;
+    background-color: teal;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.landingText{
+    background-color: lavender;
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    justify-content: center;
+    padding: 13px;
+
+}
+
+.zebraLanding{
+    background-color: red;
+    display: flex;
+    min-width: 50%;
+    justify-content: center;
+
+}
+
+.zebraimg{
+    width: 300px;
+    height:300px;
+}
+
+
+.about{
+    background-color: burlywood;
+}
+
